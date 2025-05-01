@@ -5,8 +5,7 @@ import SideBar from 'Componentes/SideBar';
 const ExampleTemplate = () => {
     return (
         <S.Container>
-            <SideBar/>
-
+            <SideBar />
         </S.Container>
     );
 };
