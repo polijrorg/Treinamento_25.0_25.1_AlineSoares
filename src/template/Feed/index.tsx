@@ -1,14 +1,12 @@
 import React from 'react';
 import * as S from './styles';
+import SideBar from 'Componentes/SideBar';
 
 const ExampleTemplate = () => {
     return (
         <S.Container>
-            <S.ContentWrapper>
-                <S.Title>Treinamento Introdutório de Front</S.Title>
-                <S.Comment>Template criado em Abril de 2025</S.Comment>
-                <S.Description>Template criado por Moizés Ávila</S.Description>
-            </S.ContentWrapper>
+            <SideBar/>
+
         </S.Container>
     );
 };
