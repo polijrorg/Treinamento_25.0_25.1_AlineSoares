@@ -1,9 +1,9 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.div`
     display: flex;
-    width: 320px;
-    height: 1024px;
+    width: 25vw;
+    height: 100%;
     padding: 32px 0px;
     flex-direction: column;
     align-items: center;
@@ -11,6 +11,10 @@ export const Container = styled.div`
     flex-shrink: 0;
     border-right: 1px solid var(--Slate-8, #4c5155);
     background: var(--Slate-2, #1a1d1e);
+    overflow-y: auto;
+    &::-webkit-scrollbar {
+        display: none;
+    }
 `;
 
 export const DivBoton = styled.div`
@@ -300,7 +304,7 @@ export const ImgOneIcon = styled.img`
     border-radius: 100px;
 `;
 
-export const twoIcon = styled.img`
+export const TwoIcon = styled.img`
     width: 64px;
     height: 64px;
     flex-shrink: 0;

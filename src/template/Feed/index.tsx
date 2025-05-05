@@ -1,12 +1,17 @@
 import React from 'react';
-import * as S from './styles';
 import SideBar from 'Componentes/SideBar';
+import TwoSideBar from 'Componentes/TwoSideBar';
+import Central from 'Componentes/Central';
+import * as S from './styles';
 
 const ExampleTemplate = () => {
     return (
         <S.Container>
             <SideBar />
+            <Central />
+            <TwoSideBar />
         </S.Container>
     );
 };
+
 export default ExampleTemplate;

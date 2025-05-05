@@ -1,7 +1,9 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 
 export const Container = styled.div`
-    width: 1440px;
-    height: 1027px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
     background: #fff;
+    overflow: hidden;
 `;

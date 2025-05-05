@@ -50,7 +50,7 @@ const SideBar = () => {
             </S.DivBoton>
             <S.OneIcon>
                 <S.ImgOneIcon src="assets/images/quadrados 1.png" />
-                <S.twoIcon src="assets/images/Log_Out.png" />
+                <S.TwoIcon src="assets/images/Log_Out.png" />
             </S.OneIcon>
         </S.Container>
     );
