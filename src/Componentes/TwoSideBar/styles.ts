@@ -14,6 +14,7 @@ export const TwoContainer = styled.div`
     &::-webkit-scrollbar {
         display: none;
     }
+    justify-content: normal;
 `;
 
 export const Divelogo = styled.div`
@@ -40,6 +41,9 @@ export const Linha10 = styled.div`
     width: 100%;
     height: 1px;
     background: #4c5155;
+    transform: scaleY(1.01);
+    transform-origin: top;
+    z-index: 1000;
 `;
 
 export const Caixa01 = styled.div`

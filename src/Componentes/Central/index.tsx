@@ -140,7 +140,7 @@ const Central = () => {
                     <S.Icon07 src="assets/images/Trash_Full.png" />
                 </S.BoxDoUsuario>
                 <S.PiuPiu>
-                    3,14159265358979323846164338327950288419726939937510582097494459230781640628620899862803482534211706798214808651
+                    3,1415926535897932384616433832795028841972693993751058
                 </S.PiuPiu>
                 <S.CaixaDeIcon>
                     <S.CaixaRepubli2>

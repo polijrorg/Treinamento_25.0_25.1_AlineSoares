@@ -72,6 +72,9 @@ export const InPI = styled.div`
     gap: 10px;
     border-radius: 0px 80px 80px 0px;
     background: var(--Indigo-9, #3e63dd);
+    &:hover {
+        background: #6b7277; /* change color on hover */
+    }
 `;
 
 export const TexPI = styled.h1`
